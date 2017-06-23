@@ -89,7 +89,7 @@
                                     <outlet property="posterImageView" destination="hnC-O0-dHJ" id="VrT-dL-Ngs"/>
                                     <outlet property="ratingLabel" destination="ABu-jO-vBn" id="Bm1-wJ-Llb"/>
                                     <outlet property="summaryLabel" destination="WYb-3z-9f7" id="Al5-gZ-ef8"/>
-                                    <outlet property="titleLabel" destination="F5T-ZS-QuA" id="Bdc-EF-1CC"/>
+                                    <outlet property="titleLabel" destination="Ee8-UV-l5M" id="eIj-wb-fng"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>

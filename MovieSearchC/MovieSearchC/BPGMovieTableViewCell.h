@@ -12,7 +12,7 @@
 
 #pragma mark - IBOutlets
 
-@property (weak, nonatomic) IBOutlet NSLayoutConstraint *titleLabel;
+@property (weak, nonatomic) IBOutlet UILabel *titleLabel;
 @property (weak, nonatomic) IBOutlet UILabel *ratingLabel;
 @property (weak, nonatomic) IBOutlet UILabel *summaryLabel;
 @property (weak, nonatomic) IBOutlet UIImageView *posterImageView;
