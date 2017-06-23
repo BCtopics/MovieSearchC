@@ -18,6 +18,8 @@
                       summary:(NSString *)sumamry
                        rating:(double)rating;
 
+#pragma mark - Properties
+
 @property (nonatomic, strong, readonly) NSString *title;
 @property (nonatomic, strong, readonly) NSString *summary;
 @property (nonatomic, readonly) double rating;

@@ -4,3 +4,4 @@
 
 #import "BPGMovie.h"
 #import "BPGMovieTableViewCell.h"
+#import "BPGMovieController.h"

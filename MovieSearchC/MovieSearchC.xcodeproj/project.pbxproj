@@ -15,6 +15,7 @@
 		6BEA17111EFD6AC800208D5F /* BPGMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BEA17101EFD6AC800208D5F /* BPGMovie.m */; };
 		6BEA17141EFD6DFC00208D5F /* BPGMovieTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BEA17131EFD6DFC00208D5F /* BPGMovieTableViewCell.m */; };
 		6BEA17171EFD6F9300208D5F /* MovieListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEA17161EFD6F9300208D5F /* MovieListTableViewController.swift */; };
+		6BEA171A1EFD727E00208D5F /* BPGMovieController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BEA17191EFD727E00208D5F /* BPGMovieController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		6BEA17131EFD6DFC00208D5F /* BPGMovieTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPGMovieTableViewCell.m; sourceTree = "<group>"; };
 		6BEA17151EFD6F9200208D5F /* MovieSearchC-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MovieSearchC-Bridging-Header.h"; sourceTree = "<group>"; };
 		6BEA17161EFD6F9300208D5F /* MovieListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieListTableViewController.swift; sourceTree = "<group>"; };
+		6BEA17181EFD727E00208D5F /* BPGMovieController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPGMovieController.h; sourceTree = "<group>"; };
+		6BEA17191EFD727E00208D5F /* BPGMovieController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPGMovieController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,8 @@
 		6BEA170C1EFD6A9300208D5F /* ModelControllers */ = {
 			isa = PBXGroup;
 			children = (
+				6BEA17181EFD727E00208D5F /* BPGMovieController.h */,
+				6BEA17191EFD727E00208D5F /* BPGMovieController.m */,
 			);
 			name = ModelControllers;
 			sourceTree = "<group>";
@@ -214,6 +219,7 @@
 				6BEA16F41EFD666100208D5F /* main.m in Sources */,
 				6BEA17141EFD6DFC00208D5F /* BPGMovieTableViewCell.m in Sources */,
 				6BEA17111EFD6AC800208D5F /* BPGMovie.m in Sources */,
+				6BEA171A1EFD727E00208D5F /* BPGMovieController.m in Sources */,
 				6BEA17171EFD6F9300208D5F /* MovieListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
