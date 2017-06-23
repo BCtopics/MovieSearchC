@@ -13,6 +13,7 @@
 		6BEA16FF1EFD666200208D5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BEA16FE1EFD666200208D5F /* Assets.xcassets */; };
 		6BEA17021EFD666200208D5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BEA17001EFD666200208D5F /* LaunchScreen.storyboard */; };
 		6BEA17111EFD6AC800208D5F /* BPGMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BEA17101EFD6AC800208D5F /* BPGMovie.m */; };
+		6BEA17141EFD6DFC00208D5F /* BPGMovieTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BEA17131EFD6DFC00208D5F /* BPGMovieTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		6BEA17031EFD666200208D5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6BEA170F1EFD6AC800208D5F /* BPGMovie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPGMovie.h; sourceTree = "<group>"; };
 		6BEA17101EFD6AC800208D5F /* BPGMovie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPGMovie.m; sourceTree = "<group>"; };
+		6BEA17121EFD6DFC00208D5F /* BPGMovieTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPGMovieTableViewCell.h; sourceTree = "<group>"; };
+		6BEA17131EFD6DFC00208D5F /* BPGMovieTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPGMovieTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,8 @@
 		6BEA170D1EFD6A9800208D5F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				6BEA17121EFD6DFC00208D5F /* BPGMovieTableViewCell.h */,
+				6BEA17131EFD6DFC00208D5F /* BPGMovieTableViewCell.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -201,6 +206,7 @@
 			files = (
 				6BEA16F71EFD666100208D5F /* AppDelegate.m in Sources */,
 				6BEA16F41EFD666100208D5F /* main.m in Sources */,
+				6BEA17141EFD6DFC00208D5F /* BPGMovieTableViewCell.m in Sources */,
 				6BEA17111EFD6AC800208D5F /* BPGMovie.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -14,7 +14,7 @@
         <!--Movie Search-->
         <scene sceneID="cud-Hc-qxb">
             <objects>
-                <tableViewController id="jB3-kS-eRl" customClass="MovieListTableViewController" customModule="MovieSearchC" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="jB3-kS-eRl" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="419" sectionHeaderHeight="28" sectionFooterHeight="28" id="uZH-FM-j5a">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -29,7 +29,7 @@
                             </connections>
                         </searchBar>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="movieCell" rowHeight="419" id="bUr-iL-9l8" customClass="MovieTableViewCell" customModule="MovieSearchC" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="movieCell" rowHeight="419" id="bUr-iL-9l8" customClass="BPGMovieTableViewCell">
                                 <rect key="frame" x="0.0" y="72" width="375" height="419"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bUr-iL-9l8" id="gd1-rR-DYJ">
@@ -85,6 +85,12 @@
                                         <constraint firstItem="qmY-Hf-BDC" firstAttribute="leading" secondItem="gd1-rR-DYJ" secondAttribute="leadingMargin" constant="8" id="tAB-9v-VQp"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="posterImageView" destination="hnC-O0-dHJ" id="VrT-dL-Ngs"/>
+                                    <outlet property="ratingLabel" destination="ABu-jO-vBn" id="Bm1-wJ-Llb"/>
+                                    <outlet property="summaryLabel" destination="WYb-3z-9f7" id="Al5-gZ-ef8"/>
+                                    <outlet property="titleLabel" destination="F5T-ZS-QuA" id="Bdc-EF-1CC"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
