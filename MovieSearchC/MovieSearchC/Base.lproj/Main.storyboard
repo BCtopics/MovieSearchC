@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -15,7 +14,7 @@
         <scene sceneID="cud-Hc-qxb">
             <objects>
                 <tableViewController id="jB3-kS-eRl" customClass="MovieListTableViewController" customModule="MovieSearchC" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="419" sectionHeaderHeight="28" sectionFooterHeight="28" id="uZH-FM-j5a">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="225" sectionHeaderHeight="28" sectionFooterHeight="28" id="uZH-FM-j5a">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -29,11 +28,11 @@
                             </connections>
                         </searchBar>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="movieCell" rowHeight="419" id="bUr-iL-9l8" customClass="BPGMovieTableViewCell">
-                                <rect key="frame" x="0.0" y="72" width="375" height="419"/>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="movieCell" rowHeight="225" id="bUr-iL-9l8" customClass="BPGMovieTableViewCell">
+                                <rect key="frame" x="0.0" y="72" width="375" height="225"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bUr-iL-9l8" id="gd1-rR-DYJ">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="418.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="224.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="qmY-Hf-BDC">
@@ -69,24 +68,14 @@
                                                 <constraint firstAttribute="trailing" secondItem="WYb-3z-9f7" secondAttribute="trailing" id="nB0-Gi-snn"/>
                                             </constraints>
                                         </stackView>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hnC-O0-dHJ">
-                                            <rect key="frame" x="129" y="121" width="117" height="176"/>
-                                            <constraints>
-                                                <constraint firstAttribute="width" secondItem="hnC-O0-dHJ" secondAttribute="height" multiplier="2:3" id="vQq-Bk-dSF"/>
-                                            </constraints>
-                                        </imageView>
                                     </subviews>
                                     <constraints>
                                         <constraint firstItem="qmY-Hf-BDC" firstAttribute="top" secondItem="gd1-rR-DYJ" secondAttribute="topMargin" constant="8" id="4zC-Mo-ss6"/>
-                                        <constraint firstItem="hnC-O0-dHJ" firstAttribute="top" secondItem="qmY-Hf-BDC" secondAttribute="bottom" constant="10" id="eVj-LN-y0Q"/>
-                                        <constraint firstItem="hnC-O0-dHJ" firstAttribute="leading" secondItem="gd1-rR-DYJ" secondAttribute="leadingMargin" constant="121" id="irc-WX-4FJ"/>
-                                        <constraint firstAttribute="trailingMargin" secondItem="hnC-O0-dHJ" secondAttribute="trailing" constant="121" id="nki-d0-Z18"/>
                                         <constraint firstAttribute="trailingMargin" secondItem="qmY-Hf-BDC" secondAttribute="trailing" constant="8" id="ph2-ke-QCz"/>
                                         <constraint firstItem="qmY-Hf-BDC" firstAttribute="leading" secondItem="gd1-rR-DYJ" secondAttribute="leadingMargin" constant="8" id="tAB-9v-VQp"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <outlet property="posterImageView" destination="hnC-O0-dHJ" id="VrT-dL-Ngs"/>
                                     <outlet property="ratingLabel" destination="ABu-jO-vBn" id="Bm1-wJ-Llb"/>
                                     <outlet property="summaryLabel" destination="WYb-3z-9f7" id="Al5-gZ-ef8"/>
                                     <outlet property="titleLabel" destination="Ee8-UV-l5M" id="eIj-wb-fng"/>

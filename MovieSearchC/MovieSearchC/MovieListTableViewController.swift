@@ -13,6 +13,7 @@ class MovieListTableViewController: UITableViewController, UISearchBarDelegate {
     //MARK: - UISearchBarDelegate Functions
     
     func searchBarSearchButtonClicked(_ searchBar: UISearchBar) {
+        searchBar.resignFirstResponder()
         guard let searchTerm = searchBar.text else { NSLog("Invalid searchterm"); return }
         
         BPGMovieController.fetchMovie(forSearchTerm: searchTerm) { (movies) in
