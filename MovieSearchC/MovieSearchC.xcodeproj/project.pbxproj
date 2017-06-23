@@ -12,6 +12,7 @@
 		6BEA16FD1EFD666100208D5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BEA16FB1EFD666100208D5F /* Main.storyboard */; };
 		6BEA16FF1EFD666200208D5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6BEA16FE1EFD666200208D5F /* Assets.xcassets */; };
 		6BEA17021EFD666200208D5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BEA17001EFD666200208D5F /* LaunchScreen.storyboard */; };
+		6BEA17111EFD6AC800208D5F /* BPGMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BEA17101EFD6AC800208D5F /* BPGMovie.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,8 @@
 		6BEA16FE1EFD666200208D5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6BEA17011EFD666200208D5F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6BEA17031EFD666200208D5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6BEA170F1EFD6AC800208D5F /* BPGMovie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BPGMovie.h; sourceTree = "<group>"; };
+		6BEA17101EFD6AC800208D5F /* BPGMovie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BPGMovie.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,10 @@
 			children = (
 				6BEA16F51EFD666100208D5F /* AppDelegate.h */,
 				6BEA16F61EFD666100208D5F /* AppDelegate.m */,
+				6BEA170E1EFD6A9D00208D5F /* ViewControllers */,
+				6BEA170D1EFD6A9800208D5F /* Views */,
+				6BEA170C1EFD6A9300208D5F /* ModelControllers */,
+				6BEA170B1EFD6A8C00208D5F /* Models */,
 				6BEA17091EFD666F00208D5F /* Resources */,
 				6BEA16F21EFD666100208D5F /* Supporting Files */,
 			);
@@ -88,6 +95,36 @@
 				6BEA16FB1EFD666100208D5F /* Main.storyboard */,
 			);
 			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		6BEA170B1EFD6A8C00208D5F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6BEA170F1EFD6AC800208D5F /* BPGMovie.h */,
+				6BEA17101EFD6AC800208D5F /* BPGMovie.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		6BEA170C1EFD6A9300208D5F /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ModelControllers;
+			sourceTree = "<group>";
+		};
+		6BEA170D1EFD6A9800208D5F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		6BEA170E1EFD6A9D00208D5F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,6 +201,7 @@
 			files = (
 				6BEA16F71EFD666100208D5F /* AppDelegate.m in Sources */,
 				6BEA16F41EFD666100208D5F /* main.m in Sources */,
+				6BEA17111EFD6AC800208D5F /* BPGMovie.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
